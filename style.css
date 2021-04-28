@@ -1,12 +1,24 @@
-*
+* /*Paramètres généraux*/
 {
 font-family: "Raleway", sans-serif;
 }
 .logo
 {
-	width: 150px
+	width: 150px;
 }
 ul
 {
 	list-style-type: none;
+}
+.Filtres
+{
+	font-weight: bold;
+}
+p
+{
+	font-weight: bold;
+}
+input
+{
+	font-weight: bold;
 }
