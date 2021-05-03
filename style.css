@@ -2,23 +2,36 @@
 {
 font-family: "Raleway", sans-serif;
 }
+h1{
+	font-size: 20px;
+}
+h2{
+	font-size: 20px
+}
+h3
+{
+	font-size: initial;
+}
+h4{
+	font-size: initial;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 32px;
+	margin-right: 60px;
+}
 .logo
 {
 	width: 150px;
 }
-ul
+.nav a
 {
+	color: black;
+	text-decoration: none;
+}
+ul{
 	list-style-type: none;
-}
-.Filtres
-{
-	font-weight: bold;
-}
-p
-{
-	font-weight: bold;
-}
-input
-{
-	font-weight: bold;
 }
