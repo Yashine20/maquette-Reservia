@@ -204,6 +204,8 @@ sub
 .populaires
 {
 	padding: 20px;
+	flex-direction: column;
+	display: flex;
 }
 .populaire
 {
