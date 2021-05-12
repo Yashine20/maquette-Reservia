@@ -8,6 +8,7 @@ body
 ul
 {
 	list-style-type: none;
+	line-height: 1.8em;
 }
 h1{
 	font-size: 20px;
@@ -100,7 +101,7 @@ button
 {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -147,7 +148,7 @@ section
 	background-color: #F2F2F2;
 	border-radius: 15px 15px 15px 15px;
 	margin-bottom: 30px;
-	width: 60%;
+	width: 65%;
 	padding-right: 10px;
 	padding-left: 30px;
 }
@@ -202,8 +203,6 @@ sub
 }
 .populaires
 {
-	display: flex;
-	flex-direction: column;
 	padding: 20px;
 }
 .populaire
@@ -232,9 +231,10 @@ sub
 .Activités
 {
 	display: flex;
-	justify-content: space-between;
-	margin-left: 40px;
-	margin-right: 40px;
+	justify-content: space-evenly;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
 }
 .Activité
 {
@@ -244,7 +244,7 @@ sub
 }
 .act
 {
-	width: 250px;
+	width: 302px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	height: 300px;
@@ -257,7 +257,7 @@ sub
 }
 .acts
 {
-	width: 210px;
+	width: 302px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	height: 110px;
@@ -275,6 +275,7 @@ aside
 	padding-right: 10px;
 	padding-left: 10px;
 	margin-bottom: 30px;
+	width: 27%;
 }
 aside h2
 {
@@ -286,14 +287,17 @@ aside h2
 main
 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin-right: 31px;
+	margin-left: 31px;
 }
 footer
-{}
+{
+	background-color: #F2F2F2;
+}
 #info
 {
 	display: flex;
-	background-color: #F2F2F2;
 	justify-content: space-between;
 }
 .titre
