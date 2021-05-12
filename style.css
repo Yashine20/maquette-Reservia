@@ -231,7 +231,7 @@ sub
 .Activités
 {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	margin-left: 0;
 	margin-right: 0;
 	padding: 0;
