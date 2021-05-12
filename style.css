@@ -25,6 +25,7 @@ h3
 h4
 {
 	font-size: initial;
+	margin-left: 40px;
 }
 a
 {
@@ -133,7 +134,7 @@ span
 }
 #contenus
 {
-	margin-left: 18px;
+	margin-left: 19px;
 	margin-right: 30px; 
 }
 #contenant
@@ -146,9 +147,9 @@ section
 	background-color: #F2F2F2;
 	border-radius: 15px 15px 15px 15px;
 	margin-bottom: 30px;
-	padding-left: 30px;
-	padding-right: 10px;
 	width: 60%;
+	padding-right: 10px;
+	padding-left: 30px;
 }
 .image
 {
@@ -223,15 +224,17 @@ sub
 	display: flex;
 	width: 150px;
 	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
 	height: 130px;
 	float: left;
 	margin-right: 20px;
+	border-bottom-left-radius: 15px;
 }
 .Activités
 {
 	display: flex;
 	justify-content: space-between;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 .Activité
 {
@@ -282,5 +285,18 @@ aside h2
 }
 main
 {
-
+	display: flex;
+	justify-content: space-around;
+}
+footer
+{}
+#info
+{
+	display: flex;
+	background-color: #F2F2F2;
+	justify-content: space-between;
+}
+.titre
+{
+	margin-right: 190px;
 }
