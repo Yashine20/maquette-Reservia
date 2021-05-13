@@ -323,6 +323,13 @@ footer
 {
 	margin-right: 190px;
 }
+@media screen and (max-width: 600px){
+	header{
+		display: block;
+		width: 100%;
+		margin-left: 5px;
+	}
+}
 @media all and (min-width: 700px) and (max-width: 1024px){
 	header{
 		margin-right: 18px;
