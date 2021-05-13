@@ -32,6 +32,10 @@ a
 {
 	text-decoration: none;
 }
+.nav a:hover{
+	color: blue;
+	border-top: 3px solid #2196f3;
+}
 header
 {
 	display: flex;
@@ -111,6 +115,10 @@ button
 	color: black;
 	font-weight: bold;
 }
+.filtres a:hover{
+	background-color: #DEEBFF;
+	border-radius: 50px;
+}
 .filtre
 {
 	border: 1px solid #DEEBFF;
@@ -177,6 +185,9 @@ section
 	padding: 4px;
 	margin-bottom: 25px;
 }
+.hbg:hover{
+	transform: scale(1.1);
+}
 .hbg p
 {
 	font-weight: bold;
@@ -215,6 +226,9 @@ sub
 	margin-bottom: 35px;
 	font-weight: bold;
 }
+.populaire:hover{
+	transform: scale(1.1);
+}
 .populaire a
 {
 	text-decoration: none;
@@ -243,6 +257,9 @@ sub
 	border-radius: 20px;
 	box-shadow: 5px 2px 2px 2px #F2F2F2;
 	margin-bottom: 50px;
+}
+.Activité:hover{
+	transform: scale(1.1);
 }
 .act
 {
