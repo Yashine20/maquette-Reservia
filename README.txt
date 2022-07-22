@@ -32,7 +32,7 @@ in those cases you can use the static font files for Raleway:
   static/Raleway-ExtraBoldItalic.ttf
   static/Raleway-BlackItalic.ttf
 
-Get startedd
+Get started
 -----------
 
 1. Install the font files you want to use
